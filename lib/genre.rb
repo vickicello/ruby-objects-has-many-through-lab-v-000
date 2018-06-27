@@ -31,5 +31,5 @@ class Genre
       song.artist == artist
     end
   end
-  
+
 end
