@@ -22,7 +22,11 @@ class Artist
     end
   end
 
-  
+  def genre
+    @songs.collect do |genre|
+    end
+  end
+
 
 
 end
