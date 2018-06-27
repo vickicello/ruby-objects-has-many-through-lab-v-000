@@ -20,4 +20,16 @@ class Genre
     song.Genre = self
   end
 
+  def songs
+    @songs.select do |song|
+      song.name == name
+    end
+  end
+
+  def artists
+    @songs.collect do |artist|
+      song.artist == artist
+    end
+  end
+  
 end
